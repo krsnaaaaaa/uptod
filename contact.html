@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiitek Solutions</title>
+    <link rel="icon" href="https://i.ibb.co/8DKtdJv/logo.png" type="image/png"> 
+    <link rel="stylesheet" href="style.css">
+  
+ 
+</head>
+<body>
+    <header>
+        <h1>
+            
+            <img src="https://i.ibb.co/svmz6hx/logo.png" alt="SAIITEK Logo"> <a href="index.html" style="text-decoration: none; color: black;"> SAIITEK SOLUTION</a>
+            
+            
+        </h1>
+        <nav>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+              <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+            <label id="overlay" for="sidebar-active"></label>
+            <div class="links-container">
+              <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+              </label>
+              <span></span>
+              <a href="index.html">Home</a> 
+              <a href="service.html">Services</a>
+              <a href="contact.html">Contact Us</a>
+              <a href="aboutUs.html">About Us</a>
+              
+            </div>
+          </nav>
+    </header>
+    
+        <h1 style=" text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5); animation: slide-in 1s ease-out; text-align: center;" >Contact Us</h1>
+        <div class="containerp">
+            <p >
+                At Saiitek, we are committed to delivering cutting-edge IT solutions tailored specifically for the healthcare sector, including PACS (Picture Archiving and Communication Systems), HIS (Hospital Information Systems), and RIS (Radiology Information Systems). Our advanced PACS solutions facilitate the efficient storage, retrieval, and sharing of medical images, ensuring that healthcare professionals have immediate access to critical imaging data for timely diagnostics. This capability not only enhances the speed of patient care but also improves collaboration among specialists, allowing for more accurate diagnoses and treatment plans. Our HIS streamlines hospital operations by integrating various departments into a cohesive system, improving data accuracy and accessibility. By centralizing patient information, our HIS enables healthcare providers to make informed decisions quickly, ultimately enhancing the patient experience. Meanwhile, our RIS effectively manages radiology workflows from patient scheduling to billing—enhancing communication among healthcare teams and improving administrative efficiency. This comprehensive approach allows radiology departments to operate smoothly, reducing wait times and increasing throughput. 
+            </p>
+        </div>
+        
+    <div class="container">     
+      <div class="cardf">
+        <form style="width: 100%;" action="https://api.web3forms.com/submit" method="POST" id="form" onsubmit="return validateForm()">
+            <input type="hidden" name="access_key" value="c12a3fb2-63da-490b-8326-dfb42f0a099b">
+            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+            
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="number" name="phone" placeholder="Enter your phone number" required oninput="validateInput(this)">
+            </div>
+            <div class="form-group">
+                <label for="country">Country/Region</label>
+                <input type="text" id="country" name="country" placeholder="Enter your country/region" required>
+            </div>
+            <div class="form-group">
+                <label for="product-interest">Product Interest</label>
+                <input type="text" id="product-interest" name="product-interest" placeholder="Enter your product interest" >
+            </div>
+            <div class="form-group">
+                <label for="Any Queries">Any Queries</label>
+                <textarea id="message" name="message" type="text" placeholder="Any Queries or Suggestions"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button style="font-size: larger; font-weight: bold;" type="submit">Submit</button>
+            </div>
+            <div id="result"></div>
+        </form>
+            <div class="overlay" id="customAlert">
+                <div class="alert-box">
+                  <h2>Thank You !!</h2>
+                  <p>Form Submitted Successfully. <br> We will reach out to you soon.</p>
+                  <button onclick="closeAlert()">Close</button>
+                </div>
+            </div>
+      </div>
+    
+      <div class="container2">
+        <div class="card">
+            <h3>You can reach out</h3>
+            <div class="contact-info">
+              <p>Company Name: Saitek Solutions </p>
+              <p>Location: <a style="text-decoration: none; color: #222;" href="https://www.google.com/maps/place/Downtown+Apartment/@27.6466818,85.3235662,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb176f85dc1d07:0x84cc9cd0c8c0a85b!8m2!3d27.6466771!4d85.3261411!16s%2Fg%2F11c1pqg_qv?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D">Dhapakhel Marg, Lalitpur, Nepal</a></p>
+              <p>Email: <a style= "color: #222;"  href="mailto:noneedtoemail@gmail.com "> noneedtoemail@gmail.com</a></p>
+              <p>Phone Number: <a style= "color: #222;" href="tel:+041000000">041000000</a></p>
+            </div>
+          </div>
+        
+          <div class="card">
+            <h3>Chat with Us</h3>
+            <div class="contact-info">
+              <p>Get product info, customer care, and live chat with an agent.</p>
+              <a href="https://business.whatsapp.com/"><button style="font-size: large; font-weight: bold;"  type="button">Let's Chat</button></a>
+            </div>
+        </div>
+        
+            <div class="card">     
+            <h3>Leave Us Some Feedback</h3>
+            <div class="contact-info">
+                <p>"We value your voice! Share your feedback and let us know how we can make your experience unforgettable. Your thoughts inspire us to grow and create magic for you!"</p>
+              <p>Good or bad, we love to hear it all.</p>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="containerp">
+        <p>In addition to our comprehensive software solutions, Saiitek offers reliable technical support and maintenance services to ensure your IT systems operate smoothly. Our team of skilled professionals is dedicated to addressing any issues promptly, allowing healthcare organizations to focus on patient care without technological interruptions. We pride ourselves on our proactive support model, which includes regular system updates and training sessions for staff, ensuring that your team is always equipped with the knowledge and tools they need to leverage our technology effectively. We understand that each organization has unique needs, which is why we provide customized IT solutions tailored to meet specific operational requirements. Our consultative approach involves working closely with your team to identify challenges and develop strategies that align with your goals. Committed to innovation, we continuously update our systems with the latest advancements in healthcare technology, empowering your organization with reliable, efficient, and innovative solutions. Whether you're seeking advanced IT infrastructure or seamless healthcare management systems, Saiitek is here to help you thrive in a technology-driven world. Reach out today to explore how our services can transform your operations into a more efficient and patient-centered model!</p> 
+                
+                <p style="text-align: justify;">
+                    <h3 style="color: #222;">Why Choose Saiitek?</h3>
+                    <ul style="margin-left: 40px;">
+                        <li> <strong>Customized Solutions:</strong>  We recognize that each healthcare organization has unique needs. Our solutions are tailored to meet those specific requirements.</li>
+                        <li> <strong>Expert Team:</strong> Our dedicated professionals bring extensive experience in healthcare IT, ensuring you receive knowledgeable support.</li>
+                        <li> <strong>Focus on Innovation:</strong>  We continuously update our technologies to incorporate the latest advancements in IT solutions for healthcare.</li> 
+                    </ul>
+                </p> 
+                <p style="text-align: justify;">
+                    <h3 style="color: #222;">Get in Touch</h3>
+                        If you have questions about our services or wish to explore how our PACS, HIS, and RIS systems can enhance your operations, please reach out! Whether through our contact form, email, or phone call, we are eager to assist you in navigating the complexities of healthcare technology. At Saiitek, we value your time and are committed to delivering exceptional service. Let us partner with you to achieve excellence in your field through innovative IT solutions!
+                </p>
+    </div>
+    </body>
+    </html>
+
+     <!-- Footer  -->
+    <div class="separator"></div>
+    <footer style="background-color: #87CEEB; color: white; padding: 40px 20px; text-align: center;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <!-- Logo and Company Info -->
+            <div style="display: flex; align-items: center;">
+                <img src="https://i.ibb.co/svmz6hx/logo.png" alt="SAIITEK Logo" style="width: 50px; height: 50px; margin-right: 15px;">
+                <div style="text-align: left;">
+                    <h3 style="margin: 0; font-size: 20px; font-weight: bold;">SAIITEK SOLUTION</h3>
+                    <p style="margin: 0;">"Pioneering Innovation for Smarter Healthcare."</p>
+                </div>
+            </div>
+    
+            <!-- Footer Links -->
+            <div style="text-align: left; margin-top: 20px; flex: 1;">
+                <h4 style="font-size: 16px;">Company</h4>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+                    <li><a href="#testimonials" style="color: white; text-decoration: none;">Contact Us</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Find a doctor</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Apps</a></li>
+                </ul>
+            </div>
+    
+            <div style="text-align: left; margin-top: 20px; flex: 1;">
+                <h4 style="font-size: 16px;">Social Handles</h4>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">Facebook</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">LinkedIn</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Instagram</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Twitter</a></li>
+                </ul>
+            </div>
+    
+            <div style="text-align: left; margin-top: 20px; flex: 1;">
+                <h4 style="font-size: 16px;">Help</h4>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">Help center</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Contact support</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Instructions</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">How it works</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div style="margin-top: 20px;">
+            <p style="margin: 0;">&copy; 2024 SAIITEK SOLUTION. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('nav a');
+            const span = document.querySelector('nav span');
+            let selectedLink = links[0]; // Default to Home
+    
+            // Function to set the span position and width
+            function setSpan(link) {
+                const { offsetLeft, offsetWidth } = link;
+                span.style.left = `${offsetLeft}px`;
+                span.style.width = `${offsetWidth}px`;
+            }
+    
+            links.forEach(link => {
+                link.addEventListener('mouseenter', () => {
+                    // Only set the span if the link is not selected
+                    if (link !== selectedLink) {
+                        setSpan(link);
+                    }
+                });
+    
+                link.addEventListener('mouseleave', () => {
+                    // Reset to the selected link or Home if none selected
+                    setSpan(selectedLink);
+                });
+    
+                link.addEventListener('click', () => {
+                    selectedLink = link; // Update the selected link
+                    setSpan(link); // Set the span to the clicked link
+                });
+            });
+    
+            // Set the initial position of the span to the first link (Home)
+            setSpan(selectedLink);
+
+             // Check if the current page is contact and set the span accordingly
+             if (window.location.href.includes("contact.html")) {
+                selectedLink = links[2]; // Assuming "Contact Us" is the fourth link
+                setSpan(selectedLink);
+            }
+    
+            // Phone number validation
+            window.validateInput = function(input) {
+                const invalidChars = /[^0-9+]/g; // Regex to match anything that's not a digit or '+'
+                if (invalidChars.test(input.value)) {
+                    alert("Only numeric values and '+' are allowed in the mobile number field!");
+                    input.value = input.value.replace(invalidChars, ''); // Remove invalid characters
+                }
+            }
+    
+            // Form Validation and Alert 
+            const form = document.getElementById('form');
+            const alertBox = document.getElementById('customAlert');
+    
+            form.addEventListener('submit', function(e) {
+                e.preventDefault(); // Prevent default form submission
+    
+                const firstName = document.getElementById("firstname").value.trim();
+                const lastName = document.getElementById("lastname").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const number = document.getElementById("number").value.trim();
+                const country = document.getElementById("country").value.trim();
+                const productinterest = document.getElementById("product-interest").value.trim();
+                const message = document.getElementById("message").value.trim();
+    
+                // Basic validation
+                if (!firstName || !lastName || !email || !number || !country || !productinterest || !message) {
+                    alert("Please fill in all required fields.");
+                    return false;
+                }
+    
+                // Show success alert
+                alertBox.style.display = "flex";
+    
+                // Send form data to the server
+                const formData = new FormData(form);
+                const object = Object.fromEntries(formData);
+                const json = JSON.stringify(object);
+    
+                fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: json
+                })
+                .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                        alertBox.querySelector('p').innerText = "Form Submitted Successfully. We will reach out to you soon.";
+                    } else {
+                        alertBox.querySelector('p').innerText = json.message;
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+                    alertBox.querySelector('p').innerText = "Something went wrong!";
+                })
+                .finally(() => {
+                    form.reset(); // Reset the form after submission
+                    setTimeout(() => {
+                        alertBox.style.display = "none"; // Hide the alert dialog after 3 seconds
+                    }, 3000);
+                });
+            });
+    
+            window.closeAlert = function() {
+                alertBox.style.display = "none"; // Hide the alert dialog
+            }
+        });
+</script>
+</body>
+</html>
